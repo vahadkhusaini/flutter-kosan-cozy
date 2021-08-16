@@ -1,6 +1,7 @@
 # cozy
 
-A new Flutter project.
+Learning course from Builthwithangga
+Flutter Kos Kosan cozy
 
 ## Getting Started
 
