@@ -266,15 +266,12 @@ class _DetailPageState extends State<DetailPage> {
                         ),
                         height: 50,
                         width: MediaQuery.of(context).size.width - (2 * edge),
-                        child: RaisedButton(
+                        child: ElevatedButton(
+                          style: buttonPrimary,
                           onPressed: () {
                             launchUrl(
                                 'https://api.whatsapp.com/send?phone=${widget.space.phone}');
                           },
-                          color: purpleColor,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(17),
-                          ),
                           child: Text(
                             'Book Now',
                             style: whiteTextStyle.copyWith(

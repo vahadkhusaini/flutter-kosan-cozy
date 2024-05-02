@@ -15,7 +15,7 @@ TextStyle blackTextStyle = GoogleFonts.poppins().copyWith(
 );
 
 TextStyle greyTextStyle = GoogleFonts.poppins().copyWith(
-  color:greyColor,
+  color: greyColor,
   fontWeight: FontWeight.w300,
 );
 
@@ -32,4 +32,13 @@ TextStyle purpleTextStyle = GoogleFonts.poppins().copyWith(
 TextStyle regularTextStyle = GoogleFonts.poppins().copyWith(
   color: blackColor,
   fontWeight: FontWeight.w400,
+);
+
+final ButtonStyle buttonPrimary = ElevatedButton.styleFrom(
+  backgroundColor: purpleColor,
+  shape: const RoundedRectangleBorder(
+    borderRadius: BorderRadius.all(
+      Radius.circular(17),
+    ),
+  ),
 );

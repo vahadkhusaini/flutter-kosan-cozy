@@ -56,17 +56,14 @@ class SplashPage extends StatelessWidget {
                   Container(
                     width: 210,
                     height: 50,
-                    child: RaisedButton(
+                    child: ElevatedButton(
+                      style: buttonPrimary,
                       onPressed: (){
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => HomePage())
                         );
                       },
-                      color: purpleColor,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(17)
-                      ),
                       child: Text(
                         'Explore Now',
                         style: whiteTextStyle.copyWith(
